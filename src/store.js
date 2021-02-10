@@ -3,7 +3,7 @@ import Vuex from 'vuex'
 import axios from 'axios'
 
 Vue.use(Vuex)
-axios.defaults.baseURL = 'http://localhost:8000/'
+axios.defaults.baseURL = 'http://api.simple-todo.blankontech.com/'
 
 export const store = new Vuex.Store({
   state: {

@@ -29,7 +29,7 @@ export default {
   },
   created() {
     this.$store.dispatch('gettodos')
-    this.connection = new WebSocket("ws://localhost:8000/socket/connect/?token="+this.$store.state.credentials.token)
+    this.connection = new WebSocket("ws://api.simple-todo.blankontech.com/socket/connect/?token="+this.$store.state.credentials.token)
 
     this.connection.onmessage = function(event) {
       console.log(JSON.parse(event.data));
