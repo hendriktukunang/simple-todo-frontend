@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./simple-todo-frontend:/simple-todo-frontend
+    stdin_open: true
+    tty: true
+
