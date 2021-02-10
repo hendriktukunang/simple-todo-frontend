@@ -1,24 +1,17 @@
-# simple-todo-frontend
+hi welcome to frontend part of simple todo 
+this project is built with vuejs 
 
-## Project setup
-```
-npm install
-```
+#app usage 
+1. pls go to http://simple-todo.blankontech.com/
+2. login with credentials:
+email : hendrik@blankontech.com
+password : 123456
+3. you can type on textbox and enter to save it 
+4. in todo list you can click x icon on right corner to remove the todo 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+all changes are synced via socket,so you can test with multiple browser/tab 
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+unitest:
+as you might notice from repo file, i don't have unitest for frontend.
+to be honest i never use jest before, and this is something i need to learn properly before implement it
