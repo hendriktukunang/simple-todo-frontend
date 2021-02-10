@@ -15,3 +15,7 @@ all changes are synced via socket,so you can test with multiple browser/tab
 unitest:
 as you might notice from repo file, i don't have unitest for frontend.
 to be honest i never use jest before, and this is something i need to learn properly before implement it
+
+ps: i'm not good on design and layout since my main strong is on backend side
+
+thank you
